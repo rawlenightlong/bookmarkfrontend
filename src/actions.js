@@ -1,4 +1,4 @@
-import { Redirect } from "react-router-dom";
+import { redirect } from "react-router-dom";
 
 const URL = "https://bookmarkbackend.onrender.com"
 

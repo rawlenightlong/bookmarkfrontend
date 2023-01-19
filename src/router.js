@@ -1,7 +1,7 @@
 import {createBrowserRouter, createRoutesFromElements, Route} from "react-router-dom"
 import { createAction, updateAction, deleteAction } from "./actions"
 import App from "./App"
-import Index from "./pages/index"
+import Index from "./pages/Index"
 import Show from "./pages/Show"
 import { bookmarkLoader, bookmarksLoader } from "./loaders"
 
