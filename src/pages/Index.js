@@ -22,7 +22,9 @@ function Index(props) {
                         <Link to={`/${bookmark._id}`} className="bookmark">
                             <h1>{bookmark.title}</h1>
                         </Link>
-                        <div className='xButton'>X</div>
+                        <Form action={`/delete/${bookmark._id}`} method="post">
+                            <input type="submit" value={`X`} />
+                        </Form>
                     </div>)
                 })}
             </div>
