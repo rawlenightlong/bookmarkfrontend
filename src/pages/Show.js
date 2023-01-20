@@ -31,7 +31,7 @@ function Show(props) {
 						/>
 						<input
 							type="submit"
-							value={`Update Bookmark}`}
+							value={`Update Bookmark`}
 							id="showUpdateSubmitButton"
 						/>
 					</Form>
